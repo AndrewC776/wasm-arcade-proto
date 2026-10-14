@@ -1,0 +1,13 @@
+{
+  "note": "Optional prefetch list. Not a complete dependency list; packages load on demand regardless.",
+  "urls": [
+    "packages/phase2/a8772e088847/index.json",
+    "packages/phase2/a8772e088847/phase2.data.00",
+    "packages/phase2/a8772e088847/phase2.data.01",
+    "packages/phase2/a8772e088847/phase2.data.02",
+    "packages/phase2/a8772e088847/phase2.data.03",
+    "packages/phase2/a8772e088847/phase2.data.04",
+    "packages/phase2/a8772e088847/phase2.data.05",
+    "packages/phase2/a8772e088847/phase2.data.06"
+  ]
+}

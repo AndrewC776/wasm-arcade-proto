@@ -1,0 +1,46 @@
+{
+  "name": "freedm",
+  "version": "d9adc4d79262",
+  "dataSize": 22218796,
+  "chunkSize": 4194304,
+  "sha256": "d9adc4d792627e7fc47b09067b15486da724010c71dd12831e1cf8e0755b68ad",
+  "chunks": [
+    {
+      "file": "freedm.data.00",
+      "size": 4194304,
+      "sha256": "8a2ac5ede2af953b1fbfc065f79636c43724726c35998260bfb6cac1ef0c9d1d"
+    },
+    {
+      "file": "freedm.data.01",
+      "size": 4194304,
+      "sha256": "f43d954da5b5960b69e329f694cb12f0f7f5a43bc15423842217cb97608d322d"
+    },
+    {
+      "file": "freedm.data.02",
+      "size": 4194304,
+      "sha256": "c3f06abff3cc50dce840bd4d7bd9a7058972a7919bc20496a50eca7a295381f6"
+    },
+    {
+      "file": "freedm.data.03",
+      "size": 4194304,
+      "sha256": "cf9052ae1f348ffb9f91f1daecb5a701eaca38009d4848a1e2b9d6d79cf21d9e"
+    },
+    {
+      "file": "freedm.data.04",
+      "size": 4194304,
+      "sha256": "9e52178b359f2c0f50fbf1df8d655c7d8a2caa8ef19465f29ee87d2aa34577c2"
+    },
+    {
+      "file": "freedm.data.05",
+      "size": 1247276,
+      "sha256": "dc6a84a9fe37a42bd3d267f6357c70f89f83976e63581cc6dab3c3f6a9356467"
+    }
+  ],
+  "files": [
+    {
+      "path": "/data/freedm.wad",
+      "start": 0,
+      "end": 22218796
+    }
+  ]
+}

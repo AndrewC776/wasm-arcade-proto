@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-10-14T13:05:42.130Z",
+  "packages": [
+    {
+      "name": "phase1",
+      "label": "Freedoom 第一章",
+      "description": "单人战役，核心包，启动时必需",
+      "role": "core",
+      "iwad": "/data/freedoom1.wad",
+      "args": [],
+      "dataSize": 28795076,
+      "chunkCount": 7,
+      "index": "packages/phase1/7323bcc168c5/index.json"
+    },
+    {
+      "name": "phase2",
+      "label": "Freedoom 第二章",
+      "description": "单人战役，选中后才按需下载",
+      "role": "on-demand",
+      "iwad": "/data/freedoom2.wad",
+      "args": [],
+      "dataSize": 28787748,
+      "chunkCount": 7,
+      "index": "packages/phase2/a8772e088847/index.json"
+    },
+    {
+      "name": "freedm",
+      "label": "FreeDM 竞技场",
+      "description": "死亡竞赛地图集，单机直接进第 1 图练图，选中后才按需下载",
+      "role": "on-demand",
+      "iwad": "/data/freedm.wad",
+      "args": [
+        "-warp",
+        "1"
+      ],
+      "dataSize": 22218796,
+      "chunkCount": 6,
+      "index": "packages/freedm/d9adc4d79262/index.json"
+    }
+  ]
+}

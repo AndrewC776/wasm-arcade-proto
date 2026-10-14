@@ -1,0 +1,51 @@
+{
+  "name": "phase1",
+  "version": "7323bcc168c5",
+  "dataSize": 28795076,
+  "chunkSize": 4194304,
+  "sha256": "7323bcc168c5a45ff10749b339960e98314740a734c30d4b9f3337001f9e703d",
+  "chunks": [
+    {
+      "file": "phase1.data.00",
+      "size": 4194304,
+      "sha256": "3c4b1f356088d62106dc7500f6e3185b461277ad2333d7c39746428ebd8788c7"
+    },
+    {
+      "file": "phase1.data.01",
+      "size": 4194304,
+      "sha256": "98960e6219af874a85663543a9919cb723c8ebb09e33db9c0f6d1aa59685fc41"
+    },
+    {
+      "file": "phase1.data.02",
+      "size": 4194304,
+      "sha256": "672343ad302b11fed71bf996b224cda0b4a26fbf6d619198c441a8a8f7340955"
+    },
+    {
+      "file": "phase1.data.03",
+      "size": 4194304,
+      "sha256": "93ff27c51f46c4099b9d3be143db856ef9f093d925af87dc15a05e177f5c8fcd"
+    },
+    {
+      "file": "phase1.data.04",
+      "size": 4194304,
+      "sha256": "3f877e994c51da0035bc595b2688ce6d200088ab2af26fd1f0c12b502d952833"
+    },
+    {
+      "file": "phase1.data.05",
+      "size": 4194304,
+      "sha256": "93bb7fdf93c70c3b3974e297b6694a720dbd6bee1b119eaf2614538e2dec5fd7"
+    },
+    {
+      "file": "phase1.data.06",
+      "size": 3629252,
+      "sha256": "fc390b5b97e8115de63de2f7384aa72564dda4acc8fde884df928eb6919d2a7f"
+    }
+  ],
+  "files": [
+    {
+      "path": "/data/freedoom1.wad",
+      "start": 0,
+      "end": 28795076
+    }
+  ]
+}
