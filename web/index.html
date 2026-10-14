@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WASM Arcade 原型</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="launcher" class="launcher">
+    <header>
+      <h1>WASM Arcade</h1>
+      <p class="sub">分片数据包、按需加载、预热缓存。演示内容：Freedoom。</p>
+    </header>
+
+    <section>
+      <h2>选择内容</h2>
+      <ul id="packages" class="packages" aria-live="polite"></ul>
+    </section>
+
+    <section class="actions">
+      <button id="start" class="primary" disabled>开始</button>
+      <div id="status" class="status">读取目录…</div>
+      <div class="progress" aria-hidden="true"><div id="bar"></div></div>
+      <ol id="chunks" class="chunks" aria-label="数据分片"></ol>
+    </section>
+
+    <section class="help">
+      <h2>操作</h2>
+      <dl>
+        <dt>方向键</dt><dd>移动 / 转向</dd>
+        <dt>Ctrl</dt><dd>开火</dd>
+        <dt>空格</dt><dd>开门 / 使用</dd>
+        <dt>Shift</dt><dd>奔跑</dd>
+        <dt>Alt + 方向键</dt><dd>平移</dd>
+        <dt>1–7</dt><dd>切换武器</dd>
+        <dt>Esc / Enter</dt><dd>菜单 / 确认</dd>
+      </dl>
+    </section>
+
+    <footer>
+      引擎 doomgeneric（GPL-2.0）· 数据 Freedoom 0.13.0（BSD-3-Clause）·
+      <a href="licenses/doomgeneric-LICENSE.txt">引擎许可证</a> ·
+      <a href="licenses/freedoom-COPYING.txt">数据许可证</a> ·
+      <a href="https://github.com/AndrewC776/wasm-arcade-proto">源码</a>
+    </footer>
+  </main>
+
+  <section id="game" class="game" hidden>
+    <div class="toolbar">
+      <span id="now-playing" class="now-playing"></span>
+      <span id="warm-status" class="warm-status"></span>
+      <button id="fullscreen">全屏</button>
+      <button id="back">返回</button>
+    </div>
+    <canvas id="canvas" tabindex="0"></canvas>
+  </section>
+
+  <details class="log-panel">
+    <summary>引擎日志</summary>
+    <pre id="log"></pre>
+  </details>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
